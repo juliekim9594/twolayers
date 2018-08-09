@@ -1,0 +1,41 @@
+@charset "utf-8";
+/*세미콜론*/
+
+
+body{background:#160900;}
+.clearfix:after{content: "";
+display: block;
+clear: both;}
+p{text-align: justify; padding: 20px; line-height: 200%;
+	font-family: 'Gothic A1', sans-serif;}
+h2{background: #F4D552; padding:15px; font-family: 'Gugi', cursive;
+color:#211000;}
+h3{padding: 15px 20px; font-family: 'Gugi', cursive;
+color:#F6DC86;}
+
+#wrapper{width: 1000px; margin:0 auto; position: relative;}
+
+#main_header{background: url(../images/pattern.jpg) no-repeat;
+background-size: 100%}
+#main_header>h1{padding:30px 50px;
+	font-family: 'Gugi', cursive; font-size:3em; color: white;}
+
+#main_container{background: #ccc; }
+
+#main_aside{float: left; width: 20%; height: 790px;
+	background: #211000;}
+#menu>li>a{/*text-align: center;*/ display: block;
+	padding:15px 20px;
+	font-family: 'Gothic A1', sans-serif;
+	color: white;}
+#menu>li>a:hover{color:#F6DC86;
+	}
+
+#main_section{float: right; width: 80%; height: 790px;
+	background: white;
+box-sizing: border-box;}
+
+#main_footer{position:fixed; bottom:0px; width: 1000px; text-align: center;
+	padding: 10px; font-family: 'Gothic A1', sans-serif; background: #ddd;
+box-sizing: border-box;
+background:#160900; color: white; font-size:12px;}
